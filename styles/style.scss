@@ -1,0 +1,22 @@
+@mixin text($color, $fontSize, $lineHeight, $fontWeight) {
+  color: $color;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  font-weight: $fontWeight;
+}
+
+@mixin button() {
+  width: 200px;
+  height: 56px;
+  border: 1px solid $acent-color;
+  border-radius: 55px;
+  color: $acent-color;
+  font-size: 18px;
+  line-height: 60px;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
